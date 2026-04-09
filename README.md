@@ -1,18 +1,18 @@
-# Skill Forge
+# SuperSkill Creator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-skill-orange?style=for-the-badge)](https://claude.ai/claude-code)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/apovalov/skill-forge/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/apovalov/superskill-creator/pulls)
 
 **Build Claude Code skills through collaborative design, not mechanical generation.**
 
-Most AI-generated skills are shallow - they skip gap analysis, ignore existing building blocks, and produce generic instructions. Skill Forge is a 7-phase interactive process that treats skill creation as a design problem, not a text generation task.
+Most AI-generated skills are shallow - they skip gap analysis, ignore existing building blocks, and produce generic instructions. SuperSkill Creator is a 7-phase interactive process that treats skill creation as a design problem, not a text generation task.
 
 ## When to use
 
-Use Skill Forge when you want to create a new Claude Code skill or redesign an existing one. It replaces the "just write a SKILL.md" approach with a structured collaborative process.
+Use SuperSkill Creator when you want to create a new Claude Code skill or redesign an existing one. It replaces the "just write a SKILL.md" approach with a structured collaborative process.
 
-**Triggers:** `create skill`, `new skill`, `skill forge`, `/skill-forge`
+**Triggers:** `create skill`, `new skill`, `superskill creator`, `/superskill-creator`
 
 ## The 7 Phases
 
@@ -30,7 +30,7 @@ Each phase produces a deliverable. No phase is skipped. The user reviews before 
 
 ## Why not just ask Claude to write a skill?
 
-Without Skill Forge, you miss:
+Without SuperSkill Creator, you miss:
 
 - **Gap Analysis** - You might build something that already exists in your 50+ installed skills
 - **Composition** - Instead of invoking existing skills as building blocks, you rebuild from scratch
@@ -42,47 +42,47 @@ Without Skill Forge, you miss:
 ### Claude Code (recommended)
 
 ```bash
-claude plugin add apovalov/skill-forge
+claude plugin add apovalov/superskill-creator
 ```
 
 ### Manual installation
 
 ```bash
 # Clone the repo
-git clone https://github.com/apovalov/skill-forge.git ~/.claude/plugins/skill-forge
+git clone https://github.com/apovalov/superskill-creator.git ~/.claude/plugins/superskill-creator
 
 # Or just copy the skill file
-mkdir -p ~/.claude/skills/skill-forge
-curl -o ~/.claude/skills/skill-forge/SKILL.md \
-  https://raw.githubusercontent.com/apovalov/skill-forge/main/skills/skill-forge/SKILL.md
+mkdir -p ~/.claude/skills/superskill-creator
+curl -o ~/.claude/skills/superskill-creator/SKILL.md \
+  https://raw.githubusercontent.com/apovalov/superskill-creator/main/skills/superskill-creator/SKILL.md
 ```
 
 ### Verify installation
 
-In Claude Code, type `/skill-forge` or say "create skill" - you should see the Problem Interview phase start.
+In Claude Code, type `/superskill-creator` or say "create skill" - you should see the Problem Interview phase start.
 
 ## Example session
 
 ```
 You: I want to create a skill for writing changelog entries
 
-Skill Forge Phase 1: "What problem do you solve again and again?"
+SuperSkill Creator Phase 1: "What problem do you solve again and again?"
 You: Every time I finish a feature, I forget to write a good changelog...
 
-Skill Forge Phase 2: "Found 3 related skills. Here's the overlap..."
+SuperSkill Creator Phase 2: "Found 3 related skills. Here's the overlap..."
 [gap analysis table]
 
-Skill Forge Phase 3: "Your changelog skill can compose these building blocks..."
+SuperSkill Creator Phase 3: "Your changelog skill can compose these building blocks..."
 [composition map: git-log reading + commit-message patterns]
 
-Skill Forge Phase 4: "Here's the design. Approve?"
+SuperSkill Creator Phase 4: "Here's the design. Approve?"
 [skill identity + pipeline + output spec + scope guard]
 
 You: Looks good, go.
 
-Skill Forge Phase 5: [writes SKILL.md]
-Skill Forge Phase 6: "Want me to pressure test it?"
-Skill Forge Phase 7: "Saved. Push to GitHub?"
+SuperSkill Creator Phase 5: [writes SKILL.md]
+SuperSkill Creator Phase 6: "Want me to pressure test it?"
+SuperSkill Creator Phase 7: "Saved. Push to GitHub?"
 ```
 
 ## Philosophy
@@ -125,8 +125,8 @@ Key rules:
 
 Found a way to improve the process? PRs welcome.
 
-- Bug reports and feature requests: [Issues](https://github.com/apovalov/skill-forge/issues)
-- Want to share a skill you built with Skill Forge? Open a PR to add it to the examples
+- Bug reports and feature requests: [Issues](https://github.com/apovalov/superskill-creator/issues)
+- Want to share a skill you built with SuperSkill Creator? Open a PR to add it to the examples
 
 ## License
 

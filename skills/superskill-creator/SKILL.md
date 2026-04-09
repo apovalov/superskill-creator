@@ -1,9 +1,9 @@
 ---
-name: skill-forge
-description: "Use when creating a new Claude Code skill from scratch, redesigning an existing skill, or when the user says 'create skill', 'new skill', 'skill forge'. Interactive multi-phase process: problem interview, gap analysis, composition discovery, design, writing, testing, deploy."
+name: superskill-creator
+description: "Use when creating a new Claude Code skill from scratch, redesigning an existing skill, or when the user says 'create skill', 'new skill', 'superskill creator'. Interactive multi-phase process: problem interview, gap analysis, composition discovery, design, writing, testing, deploy."
 ---
 
-# Skill Forge — Interactive Skill Creator
+# SuperSkill Creator — Interactive Skill Builder
 
 Build production-quality Claude Code skills through collaborative design, not mechanical generation.
 

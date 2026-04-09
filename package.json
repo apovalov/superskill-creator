@@ -1,10 +1,10 @@
 {
-  "name": "skill-forge",
+  "name": "superskill-creator",
   "version": "1.0.0",
   "description": "Interactive skill creator for Claude Code - build skills through collaborative design",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apovalov/skill-forge"
+    "url": "https://github.com/apovalov/superskill-creator"
   }
 }
