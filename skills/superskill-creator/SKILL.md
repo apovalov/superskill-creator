@@ -22,7 +22,7 @@ A skill is not a file — it's a solution to a recurring problem. Before writing
 ## Phases
 
 ```dot
-digraph skill_forge {
+digraph superskill_creator {
     rankdir=TB;
     node [shape=box];
 
