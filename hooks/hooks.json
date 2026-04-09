@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "type": "SessionStart",
+      "command": "./hooks/session-start",
+      "additionalContext": true
+    }
+  ]
+}

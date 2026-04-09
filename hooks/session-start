@@ -1,0 +1,6 @@
+#!/bin/bash
+# Inject skill-forge awareness into session
+SKILL_DIR="$(cd "$(dirname "$0")/.." && pwd)/skills/skill-forge"
+if [ -f "$SKILL_DIR/SKILL.md" ]; then
+  cat "$SKILL_DIR/SKILL.md"
+fi

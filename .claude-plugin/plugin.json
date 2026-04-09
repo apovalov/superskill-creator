@@ -1,0 +1,20 @@
+{
+  "name": "skill-forge",
+  "description": "Interactive skill creator for Claude Code. 7-phase collaborative process: problem interview, gap analysis, composition discovery, design, writing, pressure testing, deploy. Build production-quality skills through design, not generation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Valentin Shapovalov",
+    "url": "https://github.com/apovalov"
+  },
+  "homepage": "https://github.com/apovalov/skill-forge",
+  "repository": "https://github.com/apovalov/skill-forge",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "skill-creation",
+    "interactive",
+    "collaborative-design",
+    "claude-code",
+    "agent-skills"
+  ]
+}
